@@ -1,9 +1,12 @@
 import lightning as L
 import torch
 import torch.nn.functional as F
-from lightning.pytorch.demos import Transformer, WikiText2
+# from lightning.pytorch.demos import Transformer, WikiText2
 from torch.utils.data import DataLoader, random_split
 
+# Moved example to local due to need for patch to the demo transformer model definition
+# https://github.com/Lightning-AI/lightning/discussions/14377
+from transformer import Transformer, WikiText2
 
 def main():
     L.seed_everything(42)

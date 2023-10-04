@@ -1,3 +1,7 @@
+# DEV LOG
+
+- had to fix the minimal transformer example to get the starting code to run
+
 ## Transformers
 
 This example contains a simple training loop for next-word prediction with a [Transformer model](https://arxiv.org/abs/1706.03762) on a subset of the [WikiText2](https://www.salesforce.com/products/einstein/ai-research/the-wikitext-dependency-language-modeling-dataset/) dataset.
